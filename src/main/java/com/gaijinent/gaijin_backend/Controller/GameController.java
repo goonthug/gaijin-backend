@@ -1,3 +1,5 @@
+package com.gaijinent.gaijin_backend.Controller;
+
 import com.gaijinent.gaijin_backend.Repository.GameRepository;
 import com.gaijinent.gaijin_backend.Repository.UserRepository;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,5 +18,5 @@ public class GameController {
         this.userRepository = userRepository;
     }
 
-    // ... остальные методы
+
 }
