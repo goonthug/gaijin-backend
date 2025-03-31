@@ -1,10 +1,10 @@
 package com.gaijinent.gaijin_backend.Controller;
 
+import com.gaijinent.gaijin_backend.Service.AuthService;
+import com.gaijinent.gaijin_backend.Service.JwtService;
 import com.gaijinent.gaijin_backend.dto.LoginRequest;
 import com.gaijinent.gaijin_backend.dto.RegisterRequest;
 import com.gaijinent.gaijin_backend.model.User;
-import com.gaijinent.gaijin_backend.service.AuthService;
-import com.gaijinent.gaijin_backend.service.Jwt.JwtService;
 import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;

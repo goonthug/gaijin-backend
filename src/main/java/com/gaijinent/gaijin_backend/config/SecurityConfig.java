@@ -1,6 +1,6 @@
 package com.gaijinent.gaijin_backend.config;
 
-import com.gaijinent.gaijin_backend.service.Jwt.JwtAuthenticationFilter;
+import com.gaijinent.gaijin_backend.JWT.JwtAuthenticationFilter;
 import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
